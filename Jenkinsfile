@@ -18,7 +18,7 @@ pipeline {
                 sh '''
                 pip3 install --upgrade poetry
                 poetry config virtualenvs.in-project true
-                poetry install --no-interactionb --no-root
+                poetry install --no-interaction --no-root
                 '''
             }
         }
