@@ -14,7 +14,7 @@ pipeline {
         stage('Setup') {
             steps {
                 sh '''
-                pip3 install --upgrade poetry
+                python3 -m pip install --upgrade poetry
                 poetry config virtualenvs.in-project true
                 poetry install --no-interaction
                 '''
