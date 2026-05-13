@@ -24,9 +24,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh '''
                 sh 'poetry run python -m compileall .'
-                '''
             }
         }
         stage('Quality') {
