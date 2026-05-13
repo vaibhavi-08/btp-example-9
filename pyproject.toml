@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "sample-repo"
+name = "code 9"
 version = "0.1.0"
 description = "A simple Python calculator"
 authors = ["Dev <dev@example.com>"]
