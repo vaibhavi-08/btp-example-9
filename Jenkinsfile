@@ -25,7 +25,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh '''
-                poetry build
+                sh 'poetry run python -m compileall .'
                 '''
             }
         }
